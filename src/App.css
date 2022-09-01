@@ -22,13 +22,22 @@
   box-shadow: 10px 18 #ec6009;
 }
 .App-co{
-  box-shadow: 10px 18 #ec6009;
-  width: 460px;
+  
+  width: 560px;
   height: fit-content;
+
+}
+
+.App-co :hover {
+  box-shadow: 0px 2px 21px 26px rgba(237, 8, 8, 0.43);
+}
+
+.App-co :focus {
+  box-shadow: 0px 2px 21px 26px rgba(8, 237, 8, 0.43);
 }
 .App p{
   font-size: 80px;
-  color: #ec6009;
+  color: #09ec14;
 }
 .btn{
   width: 460px;
@@ -39,7 +48,7 @@
   border: none;
   color: rgb(53, 2, 49);
   border-radius: 5px;
-  text-shadow: 10px 18 #ec6009;
+  text-shadow: 0px 2px 21px 26px  rgba(147, 11, 135, 0.804);
   
 }
 

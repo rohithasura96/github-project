@@ -6,9 +6,8 @@ function App() {
   const [count,  effat, ] = useState(0);
 
   const incNum = () => {
-    if (count< 1000) {
+    if (count< 100) {
       effat(count +1)
-
     }
   }
 
@@ -21,10 +20,10 @@ function App() {
   return (
     <div className="App">
       <div className="App-co">
+        
        <p>{count}</p>
        <button className='btn' onClick={incNum}>Click +</button>
        <button className='btn' onClick={ decNum}>Click -</button>
-
        <button className='btn'type='reset' onClick={
         () => effat(0)
        } >Reset</button>
@@ -32,5 +31,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
